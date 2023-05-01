@@ -1,0 +1,75 @@
+---
+title: "GAE8"
+author: "Your name here"
+format: 
+  html:
+    theme: custom.scss
+    embed-resources: true
+    toc: true
+    code-tools: true
+
+csl: ecology.csl
+
+editor: visual
+bibliography: references.bib
+---
+
+## Scenario 1: Turkey, Traffic, and Toxoplasmosis
+
+*(or, Does your cat make you a bad driver?)*
+
+In Turkey, traffic accidents are major causes of mortality and morbidity. According to the statistics reported by Turkish Security Headquarters for the year 2000, 7500 people were killed in traffic accidents. Drivers were mostly blamed for the traffic accidents. Tired, weary, sleepy and absentminded driving were common reasons for traffic accidents. Among these reasons mental and reflex conditions of drivers are significant.
+
+Toxoplasmosis is one of the most common zoonoses throughout the world. In most cases, toxoplasmosis has no clinical signs or symptoms and infection may only be detected by serological examinations. This kind of latent or dormant toxoplasmosis can be located in neural or muscular tissues and cause prolonged reaction times of the muscles. Extended reaction times also lead to deceleration of the reflexes which could be a major cause of traffic accidents. In light of this possibility, @Yereli.etal2006 investigated the incidence of *Toxoplasma gondii* ([see this CDC link for more toxoplasmosis information](https://www.cdc.gov/parasites/toxoplasmosis/)) among a group of drivers who had been involved in traffic accidents.
+
+### Methods
+
+A total of 185 drivers (100 men and 85 women) that had been involved in auto accidents, aged between 21 and 40 years, living in Izmir and Manisa, and 185 people (95 men and 90 women), residents of the same region, in same age group that had not been involved in accidents were tested for infection using commercial IgG and IgM ELISA kits.
+
+#### The data file *`toxoplasmosis.csv`* includes:
+
+1.  `condition:` whether people were infected or uninfected
+2.  `accident`: whether people had been involved in accidents or no accidents
+
+#### Statistical Methods
+
+## Scenario 2: Non-consumptive effects of predators on community and ecosystem metrics.
+
+Top-down effects of predators may produce large effects on prey assemblages and ecosystem function through direct removal of individual prey and nutrient release. Over the last few decades researchers have provided evidence that behavioral responses to predation risk may also produce detectable effects in community dynamics and ecosystem function. @Marino.etal2016 conducted an experiment in tank bromeliads to ask: 1) whether the mere presence of predators, in the absence of consumed prey, can affect food web structure and function; and, 2) if an additional source of predation cue (alarm cues from consumed prey) increases the responsiveness to predation risk.
+
+### Methods
+
+The experiment used 15 bromeliads (*Neoregelia cruenta*) that they had collected from the field. The tanks were emptied and dried, all predators removed from the drained water, then the now predator-free water was replaced in the tanks. In these systems, the top predator is *Leptagrion andromache,* a larval odonate. To examine how the presence of the damselfly affected their prey assemblage, the researchers developed three treatments: bromeliads containing a cage with no damselflies present, a cage with an unfed damselfly, or a cage with a damselfly fed with mosquito larvae. The treatments were replicated 5 times and assigned to bromeliads in a completely randomized design.
+
+#### The data file (*`marino.csv`*) has these variables:
+
+1.  `Treatment`: descriptive treatment names
+2.  `Tanks`: the number of tank compartments in the bromeliad
+3.  `volume`: the total volume of the micro-ecosystem provided by the bromeliad
+4.  `mass`: the size $(g)$ of each bromeliad
+5.  `bactbio`: bacterial carbon biomass $(g ~ C/L)$
+6.  `bactprod`: bacterial carbon production $(\mu mole ~ C/Lh)$
+7.  `nitroflux`: nitrogen flux from label-enriched detritus to bromeliad leaves $(\delta^{15}N)$
+8.  `co2flux`: $CO_2$ flux $(g ~ C/m^2d)$
+9.  `richness`: macroinvertebrate taxa richness
+10. `count`: total number of macroinvertebrates
+11. `biomass`: estimated total macroinvertebrate biomass $(mg)$
+
+Columns 2 through 4 provide physical descriptors of the bromeliads that were used as experimental units. Columns 5 through 8 provide data on the ecosystem response. And, columns 9 through 11 provide data on the community response.
+
+#### Statistical Methods
+
+## Scenario 3:
+
+Physiological studies on animals usually involve routine handling, such as weighing, banding for identification, or blood sampling. @Le.etal1992 found that even a minor routine handling procedure induced a marked physiological stress response in domestic geese even though the geese had been trained to the procedure for several weeks and showed no behavioral signs of stress. There is also evidence that stress in nestlings may reduce their survival rates [@Mullner.etal2004].
+
+## Methods
+
+In June 2000, @Blas.etal2007 measured circulating glucocorticosteroids in white stork nestlings after restraining them for 45 min (estimated to coincide with maximal physiological response to stress). They banded the birds for individual identification and returned them to their nests. Between 2001 and 2005 they conducted extensive, intensive field surveys of banded birds on a local, national (Spain), and international scale to relocate these individuals (6,723 relocations). Of the original 34 birds included in the study, only 13 were relocated.
+
+#### The data file (*`stork.csv`*) has these variables:
+
+1.  corticosterone blood concentration ($ng/ml$)
+2.  survival (1 = survived to adulthood, 0 = presumed to have not survived)
+
+### Statistical Methods
