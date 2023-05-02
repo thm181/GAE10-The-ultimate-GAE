@@ -18,9 +18,11 @@ bibliography: references.bib
 
 *(or, Does your cat make you a bad driver?)*
 
-In Turkey, traffic accidents are major causes of mortality and morbidity. According to the statistics reported by Turkish Security Headquarters for the year 2000, 7500 people were killed in traffic accidents. Drivers were mostly blamed for the traffic accidents. Tired, weary, sleepy and absentminded driving were common reasons for traffic accidents. Among these reasons mental and reflex conditions of drivers are significant.
+In Turkey, traffic accidents are major causes of mortality and morbidity. According to the statistics reported by Turkish Security Headquarters for the year 2000, 7500 people were killed in traffic accidents. Tired, weary, sleepy and absentminded driving were often noted as reasons for the traffic accidents, but obviously mental and reflex conditions of drivers could have contributed.
 
-Toxoplasmosis is one of the most common zoonoses throughout the world. In most cases, toxoplasmosis has no clinical signs or symptoms and infection may only be detected by serological examinations. This kind of latent or dormant toxoplasmosis can be located in neural or muscular tissues and cause prolonged reaction times of the muscles. Extended reaction times also lead to deceleration of the reflexes which could be a major cause of traffic accidents. In light of this possibility, @Yereli.etal2006 investigated the incidence of *Toxoplasma gondii* ([see this CDC link for more toxoplasmosis information](https://www.cdc.gov/parasites/toxoplasmosis/)) among a group of drivers who had been involved in traffic accidents.
+Toxoplasmosis is one of the most common zoonoses[^1] throughout the world. In most cases, toxoplasmosis has no clinical signs or symptoms and infection may only be detected by serological examinations. This kind of latent or dormant toxoplasmosis can be located in neural or muscular tissues and cause prolonged reaction times of the muscles. Extended reaction times also lead to deceleration of the reflexes which could be a major cause of traffic accidents. In light of this possibility, @Yereli.etal2006 investigated the incidence of *Toxoplasma gondii* ([see this CDC link for more toxoplasmosis information](https://www.cdc.gov/parasites/toxoplasmosis/)) among a group of drivers who had been involved in traffic accidents.
+
+[^1]: Diseases which can be transmitted to humans from animals.
 
 ### Methods
 
@@ -39,7 +41,7 @@ Top-down effects of predators may produce large effects on prey assemblages and 
 
 ### Methods
 
-The experiment used 15 bromeliads (*Neoregelia cruenta*) that they had collected from the field. The tanks were emptied and dried, all predators removed from the drained water, then the now predator-free water was replaced in the tanks. In these systems, the top predator is *Leptagrion andromache,* a larval odonate. To examine how the presence of the damselfly affected their prey assemblage, the researchers developed three treatments: bromeliads containing a cage with no damselflies present, a cage with an unfed damselfly, or a cage with a damselfly fed with mosquito larvae. The treatments were replicated 5 times and assigned to bromeliads in a completely randomized design.
+The experiment used 15 bromeliads (*Neoregelia cruenta*) that they had collected from the field. Bromeliads often have multiple small reservoirs of collected rainwater (tanks) at the bases of their leaves. For this experiment, the tanks were emptied and dried, all predators removed from the drained water, then the tanks were filled with predator-free water. In these systems, the top predator is usually the larval damselfly *Leptagrion andromache*. To examine how the presence of the damselfly affected the macroinvertebrate community residing in the bromeiliads, the researchers developed three treatments: bromeliads containing a cage with no damselflies present, a cage with an unfed damselfly, or a cage with a damselfly fed with mosquito larvae. The treatments were replicated 5 times and assigned to bromeliads in a completely randomized design.
 
 #### The data file (*`marino.csv`*) has these variables:
 
@@ -61,11 +63,11 @@ Columns 2 through 4 provide physical descriptors of the bromeliads that were use
 
 ## Scenario 3:
 
-Physiological studies on animals usually involve routine handling, such as weighing, banding for identification, or blood sampling. @Le.etal1992 found that even a minor routine handling procedure induced a marked physiological stress response in domestic geese even though the geese had been trained to the procedure for several weeks and showed no behavioral signs of stress. There is also evidence that stress in nestlings may reduce their survival rates [@Mullner.etal2004].
+Physiological studies on animals usually involve routine handling, such as weighing, marking for identification, or blood sampling. @Le.etal1992 found that even a minor routine handling procedure induced a marked physiological stress response in domestic geese even though the geese had been habituated to the procedure for several weeks and showed no behavioral signs of stress. There is also evidence that stress in nestlings may reduce their survival rates [@Mullner.etal2004].
 
 ## Methods
 
-In June 2000, @Blas.etal2007 measured circulating glucocorticosteroids in white stork nestlings after restraining them for 45 min (estimated to coincide with maximal physiological response to stress). They banded the birds for individual identification and returned them to their nests. Between 2001 and 2005 they conducted extensive, intensive field surveys of banded birds on a local, national (Spain), and international scale to relocate these individuals (6,723 relocations). Of the original 34 birds included in the study, only 13 were relocated.
+In June 2000, @Blas.etal2007 measured circulating glucocorticosteroids in white stork nestlings after restraining them for 45 min (estimated to coincide with maximal physiological response to stress). They banded the birds for individual identification and returned them to their nests. Between 2001 and 2005 they conducted extensive, intensive field surveys of banded birds on a local, national (Spain), and international scale to relocate marked individuals (6,723 observations). Of the original 34 birds included in the study, only 13 were relocated.
 
 #### The data file (*`stork.csv`*) has these variables:
 
@@ -73,3 +75,5 @@ In June 2000, @Blas.etal2007 measured circulating glucocorticosteroids in white 
 2.  survival (1 = survived to adulthood, 0 = presumed to have not survived)
 
 ### Statistical Methods
+
+## References:
